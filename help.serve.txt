@@ -1,4 +1,4 @@
-flutter_rust_bridge_serve 1.44.0
+flutter_rust_bridge_serve 1.49.2
 Develop Rust WASM modules with cross-origin isolation.
 
 USAGE:
@@ -25,3 +25,5 @@ OPTIONS:
     --[no-]reference-types    Enable the reference types proposal
                               Requires wasm-bindgen in path
 -h, --help                    Print this help message
+    --[no-]build              Whether to build the library.
+                              (defaults to on)
